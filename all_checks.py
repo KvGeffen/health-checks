@@ -20,6 +20,7 @@ def check_disk_full(disk, min_gb, min_percent):
         return True
     return False
 
+# just a comment
 def main():
     if check_reboot():
         print("Pending Reboot.")
